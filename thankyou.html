@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+	<title>Thank You | Sky Education Group</title>
+	<meta name="description" content="Thank you for your enquiry. Our counselor will connect with you shortly.">
+	<meta name="robots" content="noindex, nofollow">
+	<link rel="icon" type="image/x-icon" href="/images/favicon.webp">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+	<style>
+		#thankyouPage .brandGreen {
+			color: #89C42E;
+		}
+	</style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-672122970"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PTK2ETLEHQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-672122970');
+      gtag('config', 'G-PTK2ETLEHQ');
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1614269935749584');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1614269935749584&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+</head>
+<body id="thankyouPage">
+<main>
+	<div class="thankyou-wrap">
+		<section class="thankyou-card">
+			<div id="thanksImg"><img src="images/icon-tick.webp" alt="Lead Form Submitted"></div>
+			<div class="thankyou-eyebrow">Enquiry Received</div>
+			<h1>Thank You, <span class="brandGreen" id="thankName">Student</span>!</h1>
+			<p class="thankyou-copy">
+				Your request has been submitted successfully. Our counselor will connect with you shortly to guide you about
+				<span class="brandGreen" id="thankCourse">your selected course</span>.
+			</p>
+			<div class="thankyou-actions">
+				<a class="thankyou-btn primary" href="index.html">Back to Home</a>
+				<a class="thankyou-btn secondary" href="https://api.whatsapp.com/send?phone=919873042303&text=I%20have%20query%20about%20degree%20program%2C" target="_blank" rel="noreferrer">Chat on WhatsApp</a>
+			</div>
+		</section>
+	</div>
+</main>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const name = params.get("name");
+  const course = params.get("course");
+
+  if (name) {
+    document.getElementById("thankName").textContent = name;
+  }
+  if (course) {
+    document.getElementById("thankCourse").textContent = course;
+  }
+</script>
+</body>
+</html>

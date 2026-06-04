@@ -1,0 +1,15 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glaBg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBF1"/>
+      <stop offset="1" stop-color="#EEF8DD"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="28" fill="url(#glaBg)"/>
+  <circle cx="118" cy="118" r="58" fill="#89C42E"/>
+  <circle cx="118" cy="118" r="40" fill="#DFF3B7"/>
+  <path d="M97 118.5L110.5 132L140 102.5" stroke="#1F4D2A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="208" y="140" fill="#33465E" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700">GLA</text>
+  <text x="208" y="184" fill="#89C42E" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="600">University Online</text>
+  <text x="208" y="234" fill="#6B7280" font-family="Inter, Arial, sans-serif" font-size="20">Online MBA Admission Card</text>
+</svg>
